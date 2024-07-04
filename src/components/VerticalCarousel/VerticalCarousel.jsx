@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import styled from "@emotion/styled"
 import Slide from "../Slide/Slide"
 import PropTypes from "prop-types"
+import './VerticalCarousel.css'
 
 const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfig }) => {
   const [index, setIndex] = React.useState(0);
@@ -21,7 +22,7 @@ const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfi
   };
 
   return (
-    <div className="relative flex justify-center w-full h-full">
+    <div className="relative flex justify-center w-full h-full altura-maybe">
       {getPresentableSlides().map((slide, presentableIndex) => (
         <Slide
           key={slide.key}

@@ -40,7 +40,7 @@ const Redes = () => {
       </div>
       
       <div className='flex justify-center mt-16 pb-6'>
-        <div className='border-2 border-sky-600 shadow-lg shadow-sky-600 rounded-xl w-[29%] p-2 justify-center flex flex-col bg-black/50 backdrop-blur-3xl text-white font-[rowdies]'>
+        <div className='border-2 border-sky-600 shadow-lg shadow-sky-600 rounded-xl w-[29%] p-2 justify-center flex flex-col bg-black/50 backdrop-blur-3xl text-white font-[rowdies] cuadrito'>
           <h2 className='flex text-4xl p-4'>Nuestras redes</h2>
           <h3 className='pl-4 text-2xl'>Comunicate con nosotros para una mejor atencion!</h3>
           <div className='flex flex-col p-3 gap-y-6 mt-10'>

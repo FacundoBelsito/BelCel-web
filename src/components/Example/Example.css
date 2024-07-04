@@ -1,0 +1,27 @@
+@media (max-width: 1380px) {
+    .carousel-projects {
+        width: 100%;
+    }
+
+    .gapeano {
+        gap: 20px;
+    }
+
+    .car-img {
+        height: 85%;
+    }
+
+}
+
+
+@media (max-width: 1441px) {
+    .carousel-projects {
+        width: 85%;
+
+    }
+
+    .gapeano {
+        gap: 20px;
+    }
+
+}

@@ -7,3 +7,16 @@ section {
   font-style: normal;
  
 }
+
+@media (max-width: 1380px) {
+  
+  .cardservicio{
+    width: 20% ;
+  }
+}
+
+
+
+@media (max-width: 1441px) {
+  
+}

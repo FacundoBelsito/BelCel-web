@@ -8,6 +8,13 @@ module.exports = {
     fontFamily: {
       'rowdies': ["Rowdies"],
     },
+    screens: {
+      'tablet': '640px',
+      
+      'laptop': '1440px',
+      
+      'desktop': '1520px',
+    },
   },
   plugins: [],
 }

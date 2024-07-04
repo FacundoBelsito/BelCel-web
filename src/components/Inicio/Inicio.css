@@ -344,5 +344,38 @@ main {
   }
 }
 
+@media (max-width: 1441px) {
+  .logo-del-orto {
+    top: 160px;
+    width: 28rem;
+  }
 
+  .texto-del-orto {
+    margin-top: 3rem;
+  }
+}
+
+
+@media (max-width: 1380px) {
+  .logo-del-orto {
+    top: 120px;
+    width: 25rem;
+  
+  }
+
+.studio{
+  font-size: 40px;
+}
+
+  .texto-del-orto {
+    margin-top: 4rem;
+  }
+
+  .creative{
+    margin-left: 2.2rem;
+    font-size: 1.6rem;
+    margin-top: 20rem;
+  }
+  
+}
 

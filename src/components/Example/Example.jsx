@@ -3,6 +3,7 @@ import VerticalCarousel from '../VerticalCarousel/VerticalCarousel';
 import { config } from 'react-spring';
 import proyectos from '../../mock/projectsMock';
 import { IoCodeSlash } from "react-icons/io5";
+import './Example.css'
 
 const Example = () => {
   const [goToSlide, setGoToSlide] = useState(0);
@@ -13,8 +14,8 @@ const Example = () => {
   const slides = proyectos.map(proyecto => ({
     key: proyecto.id,
     content: (
-      <article className='flex justify-between text-white font-[rowdies] items-center p-4 w-[150%] border-red-700 border-2 rounded-lg bg-black/50 backdrop-blur-3xl shadow-md shadow-red-600'>     
-        <div className='text-sm p-4 flex flex-col gap-y-10'>
+      <article className='carousel-projects flex justify-between text-white font-[rowdies] items-center p-4 desktop:w-9/12 border-red-700 border-2 rounded-lg bg-black/50 backdrop-blur-3xl shadow-md shadow-red-600 altura-maybe'>     
+        <div className='text-sm p-4 flex flex-col desktop:gap-y-10 gapeano'>
           <h3 className='text-3xl mb-4'>{proyecto.title}</h3>
           <p className='w-50 text-lg pt-4'>{proyecto.description}</p>
           <a className='text-lg border w-max p-2 rounded-lg hover:text-black hover:bg-white' target='_blank' href={proyecto.url}>{proyecto.button}</a>
@@ -23,7 +24,7 @@ const Example = () => {
           </div>
           
         </div>
-        <img src={proyecto.imageUrl} alt={proyecto.title} className='w-2/3 h-5/6 p-2' />
+        <img src={proyecto.imageUrl} alt={proyecto.title} className='w-2/3 h-5/6 p-2 car-img' />
       </article>
     )
   }));
@@ -35,7 +36,7 @@ const Example = () => {
         <IoCodeSlash className='text-white text-5xl mt-2' />
       </div>
       
-      <div className='w-full h-[60vh] p-8'>
+      <div className='w-full h-[60vh] p-4'>
         <VerticalCarousel
         slides={slides}
         offsetRadius={offsetRadius}

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Spring, animated } from 'react-spring/renderprops'
 import { withGesture } from 'react-with-gesture'
+import './Slide.css'
 
 const Slide = ({
   content,
@@ -64,7 +65,7 @@ const Slide = ({
           }}
         >
           <div
-            className="relative w-full md:w-1/2 h-full text-3xl flex flex-col items-center justify-center"
+            className="relative w-full h-full text-3xl flex flex-col items-center justify-center altura-maybe"
             onClick={() => moveSlide(offsetFromMiddle)}
           >
             {content}

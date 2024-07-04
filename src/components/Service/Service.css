@@ -66,3 +66,22 @@
     opacity: 1;
   }
 }
+
+
+
+@media (max-width: 1380px) {
+  
+  .service-card {
+    width: 23%;
+    
+  }
+
+}
+
+
+@media (max-width: 1441px) {
+  .service-card {
+    width: 23%;
+  }
+
+}

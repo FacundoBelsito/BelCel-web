@@ -12,7 +12,7 @@ const Nosotros = () => {
         <h1 className='text-5xl text-white'>SOBRE NOSOTROS</h1>
         <BiSolidUserDetail className='text-6xl' />
       </div>
-      <article className=' mt-12 w-full flex justify-around '>
+      <article className=' mt-12 w-full flex justify-around'>
         <Contactanos />
         <Equipo />
         <Metodologia />

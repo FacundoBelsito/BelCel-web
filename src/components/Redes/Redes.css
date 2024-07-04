@@ -12,3 +12,12 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 1441px) {
+    
+  .cuadrito{
+    width: 27rem;
+  }
+
+
+}

@@ -1,0 +1,13 @@
+@media (max-width: 1380px) {
+    .contactanos{
+        width: 31%;
+    }
+    
+  }
+  
+  @media (max-width: 1441px) {
+    .contactanos {
+        width: 29%;
+    }
+
+}
