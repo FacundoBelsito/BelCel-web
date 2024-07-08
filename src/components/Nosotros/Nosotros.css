@@ -9,9 +9,9 @@ section {
 }
 
 @media (max-width: 1380px) {
-  
-  .cardservicio{
-    width: 20% ;
+
+  .titulo {
+    font-size: 40px;
   }
 }
 

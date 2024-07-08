@@ -1,11 +1,19 @@
 @media (max-width: 1380px) {
-    .contactanos{
+    .contactanos {
         width: 31%;
     }
-    
-  }
-  
-  @media (max-width: 1441px) {
+
+    .tamaño-letra1 {
+        font-size: 25px;
+    }
+
+    .tamaño-letra2 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 1441px) {
     .contactanos {
         width: 29%;
     }

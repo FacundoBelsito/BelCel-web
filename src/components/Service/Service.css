@@ -76,6 +76,13 @@
     
   }
 
+  .tamaño-titulo{
+    font-size: 25px;
+  }
+
+  .tamaño-texto {
+    font-size: 18px;
+  }
 }
 
 

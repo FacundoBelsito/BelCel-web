@@ -24,10 +24,10 @@ const Service = ({ name, description, technologies, shortdes }) => {
                             ${isOpen ? 'expanded flip-in-ver-left ' : 'flip-in-ver-right'}`}>
             {!isOpen && (
                 <div className='p-2'>
-                    <h2 className='text-4xl mb-4 pl-3 pt-1'>{name}</h2>
+                    <h2 className='text-4xl mb-4 pl-3 pt-1 tamaño-titulo'>{name}</h2>
                    
-                    <h2 className='text-2xl '>{technologies}</h2>
-                    <h2 className='text-center mt-10 rounded-xl border-2 p-1 border-white'>
+                    <h2 className='text-2xl tamaño-texto '>{technologies}</h2>
+                    <h2 className='text-center mt-10 rounded-xl border-2 p-1 border-white tamaño-texto'>
                         <button onClick={handleLeerMasClick}>Mas info!</button>
                     </h2>
                 </div>

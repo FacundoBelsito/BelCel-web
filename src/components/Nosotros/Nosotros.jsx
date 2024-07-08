@@ -9,7 +9,7 @@ const Nosotros = () => {
   return (
     <section className='pb-16'>
       <div className='mt-12 ml-12 flex items-center gap-x-4'>
-        <h1 className='text-5xl text-white'>SOBRE NOSOTROS</h1>
+        <h1 className='text-5xl text-white titulo'>SOBRE NOSOTROS</h1>
         <BiSolidUserDetail className='text-6xl' />
       </div>
       <article className=' mt-12 w-full flex justify-around'>

@@ -1,5 +1,21 @@
-
-
 .fuente {
     font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1380px) {
+
+    .tamaño-letra {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 1441px) {
+
+    .tamaño-letra {
+        font-size: 18px;
+    }
+
+
 }

@@ -2,10 +2,24 @@
     .contactanos{
         width: 31%;
     }
+
+    .tamaño-letra1 {
+        font-size: 25px;
+    }
+
+    .tamaño-letra2 {
+        font-size: 18px;
+    }
     
+    .boton {
+        padding: 1rem;
+    }
   }
   
   @media (max-width: 1441px) {
+
+
+
     .contactanos {
         width: 29%;
     }

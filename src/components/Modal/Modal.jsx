@@ -12,7 +12,7 @@ export const Modal = ( { isOpen, closeModal, description} ) => {
                 <AiOutlineClose size={ 20 } onClick={ closeModal } cursor={ "pointer" } />
             </div>
             <article className="w-full h-max p-4">
-                <p className="text-2xl"> { description } </p>
+                <p className="desktop:text-2xl tamaño-texto"> { description } </p>
             </article>
         </section>
     )

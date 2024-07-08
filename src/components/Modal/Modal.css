@@ -1,0 +1,9 @@
+@media (max-width: 1380px) {
+    .tamaño-titulo{
+      font-size: 25px;
+    }
+  
+    .tamaño-texto {
+      font-size: 18px;
+    }
+  }
