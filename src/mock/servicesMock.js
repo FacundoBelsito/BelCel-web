@@ -12,7 +12,7 @@ const services = [
     {
         name: 'Catalogo',
         description: 'Presenta tus productos de manera profesional con nuestros catálogos online. Creamos catálogos digitales atractivos y detallados para promocionar tu oferta y atraer a potenciales clientes. Incluimos diseño responsive para una visualización óptima en cualquier dispositivo.',
-        technologies: ['Plataforma digital en linea que muestra productos o servicios sin opción de compra directa.']
+        technologies: ['Plataforma digital en línea que muestra productos o servicios sin opción de compra directa.']
     },
     {
         name: 'WEB corporativa',
