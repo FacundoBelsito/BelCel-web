@@ -10,7 +10,7 @@ const Inicio = () => {
           <div className='static'>
             <img className="slide-in-left desktop:w-[28rem] absolute desktop:top-[14rem] laptop:w-80 logo-del-orto" src="https://raw.githubusercontent.com/BelCel/imagenes/main/11.png" alt="" />
             <div className='mt-72 desktop:ml-6 laptop:ml-14 text-center w-full creative'>
-              <p className='desktop:text-5xl laptop:text-4xl desktop:pb-5 text-flicker-out-glow studio '>DESING STUDIO</p>
+              <p className='desktop:text-5xl laptop:text-4xl desktop:pb-5 text-flicker-out-glow studio '>DESIGN STUDIO</p>
               <p className='desktop:text-3xl text-flicker-out-glow mt-2'>C R E A T I V E <br />D E V E L O P E R S</p>
             </div>
           </div>

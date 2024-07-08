@@ -16,15 +16,18 @@ const Redes = () => {
   const icons = [
     {
       url: "https://img.icons8.com/?size=100&id=QkXeKixybttw&format=png&color=000000",
-      text: "1137704374 / 2494380835"
+      text: "1137704374 / 2494380835",
+      link: "https://wa.me/2494380835"
     },
     {
       url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
-      text: "@belcel.devs" 
+      text: "@belcel.devs",
+      link: "https://www.instagram.com/belcel.devs/?hl=es-la"
     },
     {
       url: "https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000",
-      text: "belcel.devs@gmail.com"
+      text: "belcel.devs@gmail.com",
+      link:"mailito:belcel.devs@gmail.com"
     },
     {
       url: "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000",
@@ -51,7 +54,8 @@ const Redes = () => {
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
-                <img className='w-14' src={icon.url} alt={`Icon ${index + 1}`} />
+                <a href={icon.link} target='_blank'><img className='w-14' src={icon.url} alt={`Icon ${index + 1}`} /></a>
+                
                 <div
                   className={`text-black bg-gray-200 p-2 rounded-lg shadow-md text-center transition-all duration-300 transform ${
                     hoveredIcon === index ? 'opacity-100 translate-x-0 slide-right' : 'opacity-0 translate-x-2'
