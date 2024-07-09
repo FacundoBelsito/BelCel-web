@@ -36,7 +36,7 @@ const Redes = () => {
   ];
 
   return (
-    <article className='p-4 mt-1'>
+    <article className='p-4 mt-2'>
       <div className='mt-12 flex items-center justify-center gap-x-4 text-center w-full'>
         <h1 className='text-5xl text-white font-[Rowdies] '>Contactate con nosotros</h1>
         <GrContact className='text-white text-4xl' />

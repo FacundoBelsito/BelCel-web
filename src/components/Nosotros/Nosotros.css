@@ -8,7 +8,26 @@ section {
  
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 640px) {
+  .article-nos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .div-titulo {
+    margin: 0;
+  }
+
+  .titulo {
+    margin-left: 1rem;
+    
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
 
   .titulo {
     font-size: 40px;
@@ -16,7 +35,3 @@ section {
 }
 
 
-
-@media (max-width: 1441px) {
-  
-}

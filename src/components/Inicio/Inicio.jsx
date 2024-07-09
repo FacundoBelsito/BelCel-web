@@ -7,8 +7,8 @@ import { GoArrowDown } from "react-icons/go";
 const Inicio = () => {
   return (
     <main className="w-full h-[100vh] flex justify-center items-center gap-x-10">
-      <div className='custom-md:flex custom-md:flex-col custom-md:items-center custom-md:justify-center custom-md:w-full text-flicker-out-glow'>
-        <img className=" desktop:w-[28rem] laptop:w-80 logo-del-orto" src="https://i.postimg.cc/xd429bVv/7.png" alt="" />
+      <div className='text-flicker-out-glow div-logo'>
+        <img className=" desktop:w-[28rem]  laptop:w-80 logo-del-orto" src="https://i.postimg.cc/xd429bVv/7.png" alt="" />
       </div>
       <div className='text-flicker-out-glow texto-del-orto'>
         <p className="w-74 text-center desktop:mt-16 custom-md:mt-96 desktop:text-5xl laptop:text-4xl text-3xl tracking-widest">TRANSFORMAMOS TUS IDEAS <br /> EN DESARROLLOS WEB</p>

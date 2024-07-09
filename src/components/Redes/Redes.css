@@ -7,15 +7,27 @@
     transform: translateX(100%);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
 
-@media (max-width: 1441px) {
-    
-  .cuadrito{
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  .cuadrito {
+    width: 26rem;
+  }
+
+  
+}
+
+
+@media (min-width: 1380px) and (max-width: 1440px) {
+
+  .cuadrito {
     width: 27rem;
   }
 

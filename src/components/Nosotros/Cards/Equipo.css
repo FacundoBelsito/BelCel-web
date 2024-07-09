@@ -1,4 +1,4 @@
-@media (max-width: 1380px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
     .contactanos {
         width: 31%;
     }
@@ -13,7 +13,7 @@
 
 }
 
-@media (max-width: 1441px) {
+@media (min-width: 1380px) and (max-width: 1440px) {
     .contactanos {
         width: 29%;
     }

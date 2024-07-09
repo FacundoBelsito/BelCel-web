@@ -427,7 +427,36 @@ main {
 
 
 
-@media (max-width: 1366px) {
+@media (max-width: 640px) {
+
+  main {
+    flex-direction: column;
+  }
+
+  .div-logo {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .logo-del-orto{
+    width: 100%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .texto-del-orto {
+    margin-bottom: 4rem;
+  }
+
+  .texto-del-orto>p {
+    margin: 0;
+  }
+  
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
 
   .logo-del-orto {
     width: 25rem;
@@ -467,3 +496,5 @@ main {
     margin-top: 3.2rem;
   }
 }
+
+
