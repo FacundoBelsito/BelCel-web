@@ -2,8 +2,11 @@
     .contactanos {
         width: 90%;
         margin-bottom: 1rem;
-
-        
+    }
+    
+    .boton{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
