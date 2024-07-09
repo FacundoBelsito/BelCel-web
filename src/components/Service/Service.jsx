@@ -20,7 +20,7 @@ const Service = ({ name, description, technologies, shortdes }) => {
     };
 
     return (
-        <article className={`w-1/5 service-card border border-sky-600 shadow-lg shadow-sky-600 h-max rounded-lg mt-12 p-4 bg-black/50 backdrop-blur-3xl 
+        <article className={`w-1/5 service-card border border-sky-600 article-tel shadow-lg shadow-sky-600 h-max rounded-lg mt-12 p-4 bg-black/50 backdrop-blur-3xl 
                             ${isOpen ? 'expanded flip-in-ver-left ' : 'flip-in-ver-right'}`}>
             {!isOpen && (
                 <div className='p-2'>

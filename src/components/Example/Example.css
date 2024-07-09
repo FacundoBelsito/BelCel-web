@@ -1,4 +1,25 @@
-@media (max-width: 1380px) {
+@media (max-width: 640px) {
+    .carousel-projects {
+        flex-direction: column;
+        height: max-content;
+        margin-top: 2rem;
+    }
+
+    .titulo-projects {
+        margin-bottom: 4rem;
+    }
+
+    .btn-car {
+        margin-top: 1rem;
+    }
+
+    .car-img {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
     .carousel-projects {
         width: 100%;
     }
@@ -14,7 +35,7 @@
 }
 
 
-@media (max-width: 1441px) {
+@media (min-width: 1380px) and (max-width: 1440px) {
     .carousel-projects {
         width: 85%;
 

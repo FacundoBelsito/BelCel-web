@@ -67,9 +67,13 @@
   }
 }
 
+@media (max-width: 640px){
+  .article-tel{
+    width: 100%;
+  }
+}
 
-
-@media (max-width: 1380px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
   
   .service-card {
     width: 23%;
@@ -86,9 +90,11 @@
 }
 
 
-@media (max-width: 1441px) {
+@media (min-width: 1380px) and (max-width: 1440px) {
   .service-card {
     width: 23%;
   }
 
 }
+
+
