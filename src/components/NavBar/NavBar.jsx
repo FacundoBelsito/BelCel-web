@@ -13,8 +13,8 @@ const NavBar = () => {
 
     <header className='w-full flex justify-center'>
 
-      <nav className='fixed text-white text-lg font-[rowdies] border-2 rounded-3xl border-white w-7/12 flex justify-center gap-x-12 mt-4 p-2 bg-black/50 backdrop-blur-3xl z-50 tamaño-letra'>
-        <a className='hover:bg-white hover:text-black hover:rounded-lg desktop:p-2 laptop:p-1' href="#inicio" onClick={(e) => handleScroll(e, 'inicio')}>INICIO</a>
+      <nav className='fixed text-white text-lg font-[rowdies] border-2 rounded-3xl border-white w-7/12 flex justify-center gap-x-12 mt-4 p-2 bg-black/50 backdrop-blur-3xl z-50 tamaño-letra custom-md:hidden'>
+        <a className=' hover:bg-white hover:text-black hover:rounded-lg desktop:p-2 laptop:p-1' href="#inicio" onClick={(e) => handleScroll(e, 'inicio')}>INICIO</a>
         <a className='hover:bg-white hover:text-black hover:rounded-lg desktop:p-2 laptop:p-1' href="#nosotros" onClick={(e) => handleScroll(e, 'nosotros')}>NOSOTROS</a>
         <a className='hover:bg-white hover:text-black hover:rounded-lg desktop:p-2 laptop:p-1' href="#servicios" onClick={(e) => handleScroll(e, 'servicios')}>SERVICIOS</a>
         <a className='hover:bg-white hover:text-black hover:rounded-lg desktop:p-2 laptop:p-1' href="#proyectos" onClick={(e) => handleScroll(e, 'proyectos')}>PROYECTOS</a>

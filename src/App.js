@@ -5,6 +5,7 @@ import Redes from './components/Redes/Redes'
 import Footer from './components/Footer/Footer'
 import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo'
 import NavBar from './components/NavBar/NavBar'
+import Inicio from './components/Inicio/Inicio'
 
 
 
@@ -12,8 +13,9 @@ function App() {
   return (
     <>
       <NavBar />
+      <BackgroundVideo/>
       <section id="inicio">
-        <BackgroundVideo />
+        <Inicio />
       </section>
       <section id="nosotros">
         <Nosotros />
