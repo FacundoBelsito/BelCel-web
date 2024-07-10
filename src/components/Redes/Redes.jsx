@@ -31,7 +31,8 @@ const Redes = () => {
     },
     {
       url: "https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000",
-      text: "belcel" 
+      text: "belcel",
+      link: "https://www.linkedin.com/company/103963905/admin/feed/posts/?feedType=following"
     }
   ];
 
