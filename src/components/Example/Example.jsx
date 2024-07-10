@@ -30,7 +30,7 @@ const Example = () => {
   }));
 
   return (
-    <div className='flex flex-col justify-center h-[110vh] w-full'>
+    <div className='flex flex-col justify-center h-[110vh] w-full section-carrus'>
       <div className='w-full flex items-center ml-12 mb-16 gap-x-4 titulo-projects'>
         <h1 className='text-5xl text-white font-[rowdies]'>Proyectos</h1> 
         <IoCodeSlash className='text-white text-5xl mt-2' />
