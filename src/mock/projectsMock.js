@@ -36,7 +36,7 @@ const projects = [
     },
     {
         id: 4,
-        title: 'Pablo Belsito Portfolio',
+        title: 'Portfolio',
         technologies: [<FaReact className="text-blue-500" key="react" />,<RiTailwindCssFill className="text-teal-600" key="tailwind" />,],
         imageUrl: 'https://raw.githubusercontent.com/BelCel/imagenes/main/Pablo%20portfolio.png',
         description: 'Portfolio realizado para cliente Facility Manager',

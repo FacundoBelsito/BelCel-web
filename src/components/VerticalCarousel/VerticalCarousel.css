@@ -1,14 +1,41 @@
-@media (max-width: 1380px) {
-    
-  
+@media (min-width: 374px) and (max-width:414px ){
+  .navigation-buttons {
+    margin-top: 36rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 4rem;
   }
-  
-  
-  @media (max-width: 1441px) {
-    
-    .altura-maybe {
-        
-    }
-  
-  
+}
+
+
+@media (min-width: 414px) and (max-width: 640px) {
+
+  .navigation-buttons {
+    margin-top: 40rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
+
+}
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  .navigation-buttons {
+    margin-top: 26rem;
+  }
+
+}
+
+
+@media (min-width: 1380px) and (max-width: 1440px) {
+
+  .navigation-buttons {
+    margin-top: 30rem;
+  }
+
+}

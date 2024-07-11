@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react"
-import styled from "@emotion/styled"
-import Slide from "../Slide/Slide"
-import PropTypes from "prop-types"
+import React, { useState } from "react";
+import Slide from "../Slide/Slide";
+import PropTypes from "prop-types";
+import './VerticalCarousel.css';
+import { GoArrowDown } from "react-icons/go"
+import { GoArrowUp } from "react-icons/go"
 import './VerticalCarousel.css'
 
 const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfig }) => {
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
 
   const mod = (a, b) => ((a % b) + b) % b;
 
@@ -22,7 +24,7 @@ const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfi
   };
 
   return (
-    <div className="relative flex justify-center w-full h-full altura-maybe">
+    <div className="relative flex justify-center w-full h-full">
       {getPresentableSlides().map((slide, presentableIndex) => (
         <Slide
           key={slide.key}
@@ -33,6 +35,12 @@ const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfi
           animationConfig={animationConfig}
         />
       ))}
+      {showNavigation && (
+        <div className="navigation-buttons z-50 flex desktop:gap-x-96 desktop:mt-[40rem]">
+          <button className="nav-btn text-4xl" onClick={() => moveSlide(1)}><GoArrowUp className="bg-black/50 backdrop-blur-3xl shadow-lg border-2 rounded-lg text-5xl p-2" /></button>
+          <button className="nav-btn text-4xl" onClick={() => moveSlide(-1)}><GoArrowDown className="bg-black/50 backdrop-blur-3xl shadow-lg border-2 rounded-lg text-5xl p-2" /></button>
+        </div>
+      )}
     </div>
   );
 };
