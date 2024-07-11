@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo'
 import NavBar from './components/NavBar/NavBar'
 import Inicio from './components/Inicio/Inicio'
+import './App.css'
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <BackgroundVideo/>
+      <BackgroundVideo />
       <section id="inicio">
         <Inicio />
       </section>
