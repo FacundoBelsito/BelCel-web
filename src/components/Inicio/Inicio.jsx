@@ -1,5 +1,5 @@
 import './Inicio.css'
-import { GoArrowDown } from "react-icons/go";
+import { GoArrowDown } from "react-icons/go"
 
 
 

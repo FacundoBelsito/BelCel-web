@@ -24,7 +24,7 @@ const VerticalCarousel = ({ slides, offsetRadius, showNavigation, animationConfi
   };
 
   return (
-    <div className="relative flex justify-center w-full h-full">
+    <div className="relative flex justify-center w-full h-full car-carvelot">
       {getPresentableSlides().map((slide, presentableIndex) => (
         <Slide
           key={slide.key}

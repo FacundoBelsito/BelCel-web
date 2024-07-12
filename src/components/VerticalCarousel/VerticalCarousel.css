@@ -1,11 +1,11 @@
 @media (min-width: 374px) and (max-width:414px ){
   .navigation-buttons {
-    margin-top: 36rem;
+    margin-top: 34rem;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-bottom: 4rem;
   }
+
 }
 
 
