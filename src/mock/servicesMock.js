@@ -2,7 +2,7 @@ const services = [
     {
         name: 'Landing Page',
         description: 'Ofrecemos el diseño y desarrollo de landing pages optimizadas para convertir visitantes en clientes potenciales. Con un enfoque claro y llamadas a la acción efectivas, te ayudamos a maximizar tus conversiones y alcanzar tus objetivos de marketing. Incluimos diseño responsive para una experiencia óptima en cualquier dispositivo.',
-        technologies: ['Web de una sola pagina diseñada para captar clientes potenciales con una llamada a la acción clara.']
+        technologies: ['Web de una sola página diseñada para captar clientes potenciales con una llamada a la acción clara.']
     },
     {
         name: 'Tienda Online',
@@ -10,7 +10,7 @@ const services = [
         technologies: ['Sitio web para comprar productos o servicios con carrito de compra y pagos en línea.']
     },
     {
-        name: 'Catalogo',
+        name: 'Catálogo',
         description: 'Presenta tus productos de manera profesional con nuestros catálogos online. Creamos catálogos digitales atractivos y detallados para promocionar tu oferta y atraer a potenciales clientes. Incluimos diseño responsive para una visualización óptima en cualquier dispositivo.',
         technologies: ['Plataforma digital en línea que muestra diversos productos o servicios sin opción de compra directa.']
     },

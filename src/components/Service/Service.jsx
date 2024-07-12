@@ -28,7 +28,7 @@ const Service = ({ name, description, technologies, shortdes }) => {
                    
                     <h2 className='text-2xl tamaño-texto '>{technologies}</h2>
                     <h2 className='text-center mt-10 rounded-xl border-2 p-1 border-white tamaño-texto'>
-                        <button onClick={handleLeerMasClick}>Mas info!</button>
+                        <button onClick={handleLeerMasClick}>Más info!</button>
                     </h2>
                 </div>
             )}
