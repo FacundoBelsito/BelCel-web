@@ -435,7 +435,7 @@ main {
 
   .div-logo {
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .logo-del-orto{
@@ -450,6 +450,10 @@ main {
 
   .texto-del-orto>p {
     margin: 0;
+  }
+
+  .bsas{
+    font-size: 24px;
   }
   
 }
